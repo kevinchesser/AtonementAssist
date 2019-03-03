@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 80100
 ## Title: Atonement Assist
 ## Author: J (aka Merenwen) - Updated by Wooshy (Blackrock)
 ## Notes: Tracks atonement (on Blizzards default raid frames) using colored borders.
