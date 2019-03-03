@@ -2,6 +2,6 @@
 ## Title: Atonement Assist
 ## Author: J (aka Merenwen) - Updated by Wooshy (Blackrock)
 ## Notes: Tracks atonement (on Blizzards default raid frames) using colored borders.
-## Version: 1.1.1
+## Version: 1.1.2
 
 AtonementAssist.lua
