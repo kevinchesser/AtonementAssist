@@ -1,4 +1,4 @@
-﻿local frameBorders = {};
+local frameBorders = {};
 
 function HideFrameBorder(frame, borderIndex)
 
@@ -44,7 +44,7 @@ end
 
 AA_CompactUnitFrame_UpdateAuras = function(frame)
 	local frameName = frame:GetName();
-	--print("CHANGE" .. frameName);
+	if not frameName then return end
 
 	if (string.starts(frameName,"CompactRaid") or string.starts(frameName,"CompactParty")) then
 			
@@ -99,7 +99,7 @@ function string.starts(String,Start)
 end
 
 --print("<----------- Force loading");
-LoadAddOn("Blizzard_CompactUnitFrames");
+C_AddOns.LoadAddOn("Blizzard_CompactUnitFrames");
 --print("<----------- Done");
    
 hooksecurefunc("CompactUnitFrame_UpdateAuras", AA_CompactUnitFrame_UpdateAuras);
