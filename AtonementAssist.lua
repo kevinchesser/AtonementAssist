@@ -44,6 +44,7 @@ end
 
 AA_CompactUnitFrame_UpdateAuras = function(frame)
 	local frameName = frame:GetName();
+	--print("CHANGE" .. frameName);
 	if not frameName then return end
 
 	if (string.starts(frameName,"CompactRaid") or string.starts(frameName,"CompactParty")) then
